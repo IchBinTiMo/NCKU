@@ -1,0 +1,89 @@
+{D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v} {1 {vlog -work work -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top_tb.v} {1 {vlog -work work -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module top_tb
+
+Top level modules:
+	top_tb
+
+} {} {}} {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/link.ld} {0 {vlog -work work -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/link.ld}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/link.ld(1): near "(": syntax error, unexpected '('.
+
+** Error: D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/link.ld(1): (vlog-13205) Syntax error found in the scope following 'OUTPUT_ARCH'. Is there a missing '::'?
+
+
+} {3.0 4.0 5.0 6.0} {}} {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak} {0 {vlog -work work -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CPU
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(99): near "endcase": syntax error, unexpected endcase.
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(110): near "begin": syntax error, unexpected begin, expecting ':'.
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(116): near "endcase": syntax error, unexpected endcase.
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(123): near "3": syntax error, unexpected INTEGER NUMBER.
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(131): near ":": syntax error, unexpected ':', expecting IDENTIFIER or disable or clock or clocking.
+
+** Error: D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(140): (vlog-13161) unexpected '$display'
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(141): near "end": syntax error, unexpected end.
+
+** Error: D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(151): (vlog-13161) unexpected '$display'
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(152): near "end": syntax error, unexpected end.
+
+** Error: D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(156): (vlog-13161) unexpected '$display'
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(157): near "end": syntax error, unexpected end.
+
+** Error: D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(167): (vlog-13161) unexpected '$display'
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(168): near "end": syntax error, unexpected end.
+
+** Error: D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(178): (vlog-13161) unexpected '$display'
+
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(179): near "end": syntax error, unexpected end.
+
+** Error: D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/CPU.v.bak(189): (vlog-13205) Syntax error found in the scope following 'funct3'. Is there a missing '::'?
+
+
+} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 16.0 17.0 18.0 19.0 20.0 21.0 22.0 23.0 24.0 25.0 26.0 27.0 28.0 29.0 30.0 31.0 32.0 33.0 34.0 35.0} {}} {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/main.log} {0 {vcom -work work -2002 -explicit -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/main.log}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error: D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/main.log(2): near "main": syntax error
+
+} {4.0 5.0} {}} {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/setup.S} {0 {vlog -work work -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/setup.S}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/setup.S(1): near "#": syntax error, unexpected '#', expecting class.
+
+
+} {3.0 4.0} {}} {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/main.S} {0 {vlog -work work -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/main.S}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlog-13069) D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/main.S(1): near ".": syntax error, unexpected '.', expecting class.
+
+
+} {3.0 4.0} {}} {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top.v} {1 {vlog -work work -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CPU
+-- Compiling module SRAM
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/SRAM.v} {1 {vlog -work work -stats=none {D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/SRAM.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SRAM
+
+Top level modules:
+	SRAM
+
+} {} {}}

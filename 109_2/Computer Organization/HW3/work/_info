@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vCPU
+Z0 !s110 1621229616
+!i10b 1
+!s100 MzUX1<K4UL7Y9WY:j@JH81
+I?BYGJX::m2?T5JX6XiV;U3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3
+w1621229607
+8CPU.v
+FCPU.v
+L0 3
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1621229616.000000
+Z5 !s107 SRAM.v|CPU.v|D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top.v|
+!s101 -O0
+!i113 1
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@c@p@u
+vSRAM
+R0
+!i10b 1
+!s100 098NVJ5G7cQKQ54o@ikSC1
+I0B00@Hd9fRgDEjki`kmG=2
+R1
+R2
+Z8 w1613988061
+8SRAM.v
+FSRAM.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+!i113 1
+R7
+n@s@r@a@m
+vtop
+R0
+!i10b 1
+!s100 3nA]>>K_ENC>4H3_H3T@Y0
+IQlhX;`PZbfKH_kcVX`1CR1
+R1
+R2
+R8
+8D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top.v
+FD:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!s101 -O0
+!i113 1
+R7
+vtop_tb
+R0
+!i10b 1
+!s100 G>0gzeVZEW0Al_bIBMz=R3
+IEJE[lbj`gzT@bHjYfC=<=0
+R1
+R2
+R8
+8D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top_tb.v
+FD:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top_tb.v
+L0 14
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Timo/MYSELF/NCKU/109-2/Computer Orgnaization/HW3/top_tb.v|
+!s101 -O0
+!i113 1
+R7
