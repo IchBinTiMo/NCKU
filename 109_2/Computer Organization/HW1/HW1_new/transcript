@@ -1,0 +1,11 @@
+# Compile of traffic_light_tb.v was successful.
+# Compile of traffic_light.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.traffic_light_tb
+add wave -position end  sim:/traffic_light_tb/ul/clk
+add wave -position end  sim:/traffic_light_tb/ul/rst
+add wave -position end  sim:/traffic_light_tb/ul/pass
+add wave -position end  sim:/traffic_light_tb/ul/R
+add wave -position end  sim:/traffic_light_tb/ul/G
+add wave -position end  sim:/traffic_light_tb/ul/Y
+run -all
