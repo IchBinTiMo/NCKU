@@ -1,0 +1,21 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"9 sub.c
+[v _sub `(i ~T0 @X0 1 ef2`i`i ]
+"10
+{
+[; ;sub.c: 9: int sub(int a, int b)
+[; ;sub.c: 10: {
+[e :U _sub ]
+"9
+[v _a `i ~T0 @X0 1 r1 ]
+[v _b `i ~T0 @X0 1 r2 ]
+"10
+[f ]
+[; ;sub.c: 11: return (a - b);
+"11
+[e ) - _a _b ]
+[e $UE 1  ]
+[; ;sub.c: 12: }
+"12
+[e :UE 1 ]
+}

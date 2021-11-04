@@ -1,0 +1,368 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/debug\Lab5.X.debug.o
+cinit CODE 0 7F50 7F50 6 1
+idloc IDLOC 5 200000 200000 8 1
+text0 CODE 0 7F56 7F56 22 1
+cstackCOMRAM COMRAM 1 1 1 4 1
+config CONFIG 4 300000 300000 E 1
+$build/default/debug/Advanced.o
+mytext CODE 0 7F78 7F78 88 1
+$C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+idloc IDLOC 5 200000 200000 8 1
+init CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 80-5FF 1
+SFR F80-FFF 1
+BANK0 80-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+CONST 4-7F4F 1
+STACK 80-5FF 1
+SMALLCONST 600-7F4F 1
+CODE 4-7F4F 1
+BIGRAM 5-5FF 1
+COMRAM 5-7F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 600-7F4F 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Lab5.X.debug.o
+7F56 text0 CODE >6:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\main.c
+7F56 text0 CODE >7:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\main.c
+7F68 text0 CODE >8:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\main.c
+7F6C text0 CODE >9:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\main.c
+7F70 text0 CODE >10:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\main.c
+7F70 text0 CODE >11:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\main.c
+7F50 cinit CODE >397:C:\Users\我本人\AppData\Local\Temp\xcAsif0.s
+7F50 cinit CODE >399:C:\Users\我本人\AppData\Local\Temp\xcAsif0.s
+7F50 cinit CODE >402:C:\Users\我本人\AppData\Local\Temp\xcAsif0.s
+7F50 cinit CODE >408:C:\Users\我本人\AppData\Local\Temp\xcAsif0.s
+7F50 cinit CODE >410:C:\Users\我本人\AppData\Local\Temp\xcAsif0.s
+7F52 cinit CODE >411:C:\Users\我本人\AppData\Local\Temp\xcAsif0.s
+$build/default/debug/Advanced.o
+7F78 mytext CODE >19:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F7A mytext CODE >20:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F7C mytext CODE >21:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F7E mytext CODE >22:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F80 mytext CODE >23:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F82 mytext CODE >24:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F86 mytext CODE >25:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F88 mytext CODE >26:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F8A mytext CODE >27:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F8C mytext CODE >28:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F8E mytext CODE >29:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F90 mytext CODE >30:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F92 mytext CODE >31:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F94 mytext CODE >32:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F96 mytext CODE >33:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F98 mytext CODE >34:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F9A mytext CODE >35:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F9C mytext CODE >36:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7F9E mytext CODE >37:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FA0 mytext CODE >38:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FA2 mytext CODE >39:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FA4 mytext CODE >40:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FA6 mytext CODE >41:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FA8 mytext CODE >42:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FAA mytext CODE >43:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FAC mytext CODE >43:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FAE mytext CODE >43:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FB0 mytext CODE >43:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FB2 mytext CODE >43:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FB4 mytext CODE >43:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FB6 mytext CODE >44:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FB8 mytext CODE >45:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FBA mytext CODE >46:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FBC mytext CODE >47:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FBE mytext CODE >48:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FC0 mytext CODE >49:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FC2 mytext CODE >50:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FC4 mytext CODE >51:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FC6 mytext CODE >52:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FC8 mytext CODE >53:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FCA mytext CODE >54:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FCC mytext CODE >58:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FCE mytext CODE >59:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FD0 mytext CODE >60:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FD2 mytext CODE >61:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FD4 mytext CODE >62:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FD6 mytext CODE >67:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FD8 mytext CODE >68:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FDA mytext CODE >69:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FDC mytext CODE >70:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FDE mytext CODE >70:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FE0 mytext CODE >70:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FE2 mytext CODE >70:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FE4 mytext CODE >70:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FE6 mytext CODE >70:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FE8 mytext CODE >71:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FEA mytext CODE >72:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FEC mytext CODE >77:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FEE mytext CODE >77:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FF0 mytext CODE >77:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FF2 mytext CODE >77:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FF4 mytext CODE >77:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FF6 mytext CODE >77:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FF8 mytext CODE >78:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FFA mytext CODE >84:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FFC mytext CODE >85:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+7FFE mytext CODE >86:D:\Timo\MYSELF\NCKU\110-1\Microprocessor\Lab\Lab5\Lab5.X\Advanced.asm
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst build/default/debug/Advanced.o
+__Hspace_0 8000 0 ABS 0 - build/default/debug/Advanced.o
+__Hspace_1 5 0 ABS 0 - build/default/debug/Advanced.o
+__Hspace_2 0 0 ABS 0 - build/default/debug/Advanced.o
+__Hspace_3 0 0 ABS 0 - build/default/debug/Advanced.o
+__Hspace_4 60000E 0 ABS 0 - build/default/debug/Advanced.o
+__Hibigdata 0 0 CODE 0 ibigdata build/default/debug/Advanced.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data build/default/debug/Advanced.o
+__Hudata_bank0 0 0 ABS 0 udata_bank0 build/default/debug/Advanced.o
+__Hudata_bank1 0 0 ABS 0 udata_bank1 build/default/debug/Advanced.o
+__Hudata_bank2 0 0 ABS 0 udata_bank2 build/default/debug/Advanced.o
+__Hudata_bank3 0 0 ABS 0 udata_bank3 build/default/debug/Advanced.o
+__Hudata_bank4 0 0 ABS 0 udata_bank4 build/default/debug/Advanced.o
+__Hudata_bank5 0 0 ABS 0 udata_bank5 build/default/debug/Advanced.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst build/default/debug/Advanced.o
+___sp 0 0 STACK 2 stack C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+_main 7F56 0 CODE 0 text0 dist/default/debug\Lab5.X.debug.o
+start 0 0 CODE 0 init C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+__size_of_main 0 0 ABS 0 - dist/default/debug\Lab5.X.debug.o
+__Hpowerup 0 0 CODE 0 powerup build/default/debug/Advanced.o
+__accesstop 80 0 ABS 0 - C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+intlevel0 0 0 CODE 0 text C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+intlevel1 0 0 CODE 0 text C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+intlevel2 0 0 CODE 0 text C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+intlevel3 0 0 CODE 0 text C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM build/default/debug/Advanced.o
+__Hifardata 0 0 CODE 0 ifardata build/default/debug/Advanced.o
+__Hclrtext 0 0 ABS 0 clrtext build/default/debug/Advanced.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+__Hintcode_body 0 0 ABS 0 intcode_body build/default/debug/Advanced.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs build/default/debug/Advanced.o
+main@res 3 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab5.X.debug.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst build/default/debug/Advanced.o
+__Hintcodelo 0 0 CODE 0 intcodelo build/default/debug/Advanced.o
+__Lintcodelo 0 0 CODE 0 intcodelo build/default/debug/Advanced.o
+start_initialization 7F50 0 CODE 0 cinit dist/default/debug\Lab5.X.debug.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM build/default/debug/Advanced.o
+___rparam_used 1 0 ABS 0 - dist/default/debug\Lab5.X.debug.o
+isa$xinst 0 0 ABS 0 - C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+__Hbank0 0 0 ABS 0 bank0 build/default/debug/Advanced.o
+__Hbank1 0 0 ABS 0 bank1 build/default/debug/Advanced.o
+__Hbank2 0 0 ABS 0 bank2 build/default/debug/Advanced.o
+__Hbank3 0 0 ABS 0 bank3 build/default/debug/Advanced.o
+__Hbank4 0 0 ABS 0 bank4 build/default/debug/Advanced.o
+__Hbank5 0 0 ABS 0 bank5 build/default/debug/Advanced.o
+__Hcinit 0 0 ABS 0 cinit build/default/debug/Advanced.o
+__Hconst 0 0 CONST 0 const build/default/debug/Advanced.o
+__Hedata 0 0 ABS 0 edata build/default/debug/Advanced.o
+__Hidata 0 0 CODE 0 idata build/default/debug/Advanced.o
+__Hidloc 200008 0 IDLOC 5 idloc build/default/debug/Advanced.o
+__Hnvbit 0 0 COMRAM 1 nvbit build/default/debug/Advanced.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug\Lab5.X.debug.o
+__Hrdata 0 0 COMRAM 1 rdata build/default/debug/Advanced.o
+__Hstack 0 0 STACK 2 stack build/default/debug/Advanced.o
+__Htext0 0 0 ABS 0 text0 build/default/debug/Advanced.o
+__Hudata 0 0 ABS 0 udata build/default/debug/Advanced.o
+__Hbigbss 0 0 BIGRAM 1 bigbss build/default/debug/Advanced.o
+__Hbigram 0 0 ABS 0 bigram build/default/debug/Advanced.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+__Hcomram 0 0 ABS 0 comram build/default/debug/Advanced.o
+__Hconfig 30000E 0 CONFIG 4 config build/default/debug/Advanced.o
+__Lbank0 0 0 ABS 0 bank0 build/default/debug/Advanced.o
+__Lbank1 0 0 ABS 0 bank1 build/default/debug/Advanced.o
+__Lbank2 0 0 ABS 0 bank2 build/default/debug/Advanced.o
+__Lbank3 0 0 ABS 0 bank3 build/default/debug/Advanced.o
+__Lbank4 0 0 ABS 0 bank4 build/default/debug/Advanced.o
+__Lbank5 0 0 ABS 0 bank5 build/default/debug/Advanced.o
+__Lcinit 0 0 ABS 0 cinit build/default/debug/Advanced.o
+__Lconst 0 0 CONST 0 const build/default/debug/Advanced.o
+__Ledata 0 0 ABS 0 edata build/default/debug/Advanced.o
+__Lidata 0 0 CODE 0 idata build/default/debug/Advanced.o
+__Lidloc 0 0 IDLOC 5 idloc build/default/debug/Advanced.o
+__Lnvbit 0 0 COMRAM 1 nvbit build/default/debug/Advanced.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug\Lab5.X.debug.o
+__Lrdata 0 0 COMRAM 1 rdata build/default/debug/Advanced.o
+__Lstack 0 0 STACK 2 stack build/default/debug/Advanced.o
+__Ltext0 0 0 ABS 0 text0 build/default/debug/Advanced.o
+__Ludata 0 0 ABS 0 udata build/default/debug/Advanced.o
+__Hfarbss 0 0 FARRAM 0 farbss build/default/debug/Advanced.o
+__Lintcode_body 0 0 ABS 0 intcode_body build/default/debug/Advanced.o
+__Habs1 0 0 ABS 0 abs1 build/default/debug/Advanced.o
+__Hcode 0 0 ABS 0 code build/default/debug/Advanced.o
+__Hdata 0 0 ABS 0 data build/default/debug/Advanced.o
+__Hinit 4 0 CODE 0 init build/default/debug/Advanced.o
+__Hrbit 0 0 COMRAM 1 rbit build/default/debug/Advanced.o
+__Hrbss 0 0 COMRAM 1 rbss build/default/debug/Advanced.o
+__Htemp 0 0 COMRAM 1 temp build/default/debug/Advanced.o
+__Htext 0 0 ABS 0 text build/default/debug/Advanced.o
+__Labs1 0 0 ABS 0 abs1 build/default/debug/Advanced.o
+__Lcode 0 0 ABS 0 code build/default/debug/Advanced.o
+__Ldata 0 0 ABS 0 data build/default/debug/Advanced.o
+__Linit 0 0 CODE 0 init build/default/debug/Advanced.o
+__Lrbit 0 0 COMRAM 1 rbit build/default/debug/Advanced.o
+__Lrbss 0 0 COMRAM 1 rbss build/default/debug/Advanced.o
+__Ltemp 0 0 COMRAM 1 temp build/default/debug/Advanced.o
+__Ltext 0 0 ABS 0 text build/default/debug/Advanced.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM build/default/debug/Advanced.o
+__Hintret 0 0 ABS 0 intret build/default/debug/Advanced.o
+__Hirdata 0 0 CODE 0 irdata build/default/debug/Advanced.o
+__S0 8000 0 ABS 0 - build/default/debug/Advanced.o
+__S1 5 0 ABS 0 - build/default/debug/Advanced.o
+__S2 0 0 ABS 0 - build/default/debug/Advanced.o
+__S3 0 0 ABS 0 - build/default/debug/Advanced.o
+__S4 0 0 ABS 0 - build/default/debug/Advanced.o
+__S5 0 0 ABS 0 - build/default/debug/Advanced.o
+main@remainder 2 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab5.X.debug.o
+__Lbigdata 0 0 BIGRAM 1 bigdata build/default/debug/Advanced.o
+__Hnvrram 0 0 COMRAM 1 nvrram build/default/debug/Advanced.o
+__Lintentry 0 0 ABS 0 intentry build/default/debug/Advanced.o
+__Hramtop 600 0 RAM 0 ramtop build/default/debug/Advanced.o
+__Hrparam 0 0 COMRAM 1 rparam build/default/debug/Advanced.o
+__activetblptr 0 0 ABS 0 - dist/default/debug\Lab5.X.debug.o
+__Hstruct 0 0 COMRAM 1 struct build/default/debug/Advanced.o
+_divide_signed 7F78 0 CODE 0 mytext build/default/debug/Advanced.o
+_divide_signed$1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab5.X.debug.o
+__Lbigbss 0 0 BIGRAM 1 bigbss build/default/debug/Advanced.o
+__Lbigram 0 0 ABS 0 bigram build/default/debug/Advanced.o
+__Lcomram 0 0 ABS 0 comram build/default/debug/Advanced.o
+__Lconfig 0 0 CONFIG 4 config build/default/debug/Advanced.o
+__Lfarbss 0 0 FARRAM 0 farbss build/default/debug/Advanced.o
+__Lfardata 0 0 FARRAM 0 fardata build/default/debug/Advanced.o
+isa$std 1 0 ABS 0 - C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+stackhi 5FF 0 ABS 0 - C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+stacklo 80 0 ABS 0 - C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+__Lintcode 0 0 CODE 0 intcode build/default/debug/Advanced.o
+__Lintret 0 0 ABS 0 intret build/default/debug/Advanced.o
+__Lirdata 0 0 CODE 0 irdata build/default/debug/Advanced.o
+__Lspace_0 0 0 ABS 0 - build/default/debug/Advanced.o
+__Lspace_1 0 0 ABS 0 - build/default/debug/Advanced.o
+__Lspace_2 0 0 ABS 0 - build/default/debug/Advanced.o
+__Lspace_3 0 0 ABS 0 - build/default/debug/Advanced.o
+__Lspace_4 0 0 ABS 0 - build/default/debug/Advanced.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM build/default/debug/Advanced.o
+end_of_initialization 7F50 0 CODE 0 cinit dist/default/debug\Lab5.X.debug.o
+__Lnvrram 0 0 COMRAM 1 nvrram build/default/debug/Advanced.o
+__Hintentry 0 0 ABS 0 intentry build/default/debug/Advanced.o
+__Hreset_vec 0 0 CODE 0 reset_vec build/default/debug/Advanced.o
+__Lramtop 600 0 RAM 0 ramtop build/default/debug/Advanced.o
+__Lrparam 0 0 COMRAM 1 rparam build/default/debug/Advanced.o
+__pcinit 7F50 0 CODE 0 cinit dist/default/debug\Lab5.X.debug.o
+__ptext0 7F56 0 CODE 0 text0 dist/default/debug\Lab5.X.debug.o
+__Lstruct 0 0 COMRAM 1 struct build/default/debug/Advanced.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\我本人\AppData\Local\Temp\xcAsif0.o
+__Lpowerup 0 0 CODE 0 powerup build/default/debug/Advanced.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data build/default/debug/Advanced.o
+__Ludata_bank0 0 0 ABS 0 udata_bank0 build/default/debug/Advanced.o
+__Ludata_bank1 0 0 ABS 0 udata_bank1 build/default/debug/Advanced.o
+__Ludata_bank2 0 0 ABS 0 udata_bank2 build/default/debug/Advanced.o
+__Ludata_bank3 0 0 ABS 0 udata_bank3 build/default/debug/Advanced.o
+__Ludata_bank4 0 0 ABS 0 udata_bank4 build/default/debug/Advanced.o
+__Ludata_bank5 0 0 ABS 0 udata_bank5 build/default/debug/Advanced.o
+__Lreset_vec 0 0 CODE 0 reset_vec build/default/debug/Advanced.o
+___param_bank 0 0 ABS 0 - dist/default/debug\Lab5.X.debug.o
+main@quotient 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab5.X.debug.o
+__Hbigdata 0 0 BIGRAM 1 bigdata build/default/debug/Advanced.o
+__end_of__initialization 7F50 0 CODE 0 cinit dist/default/debug\Lab5.X.debug.o
+__Libigdata 0 0 CODE 0 ibigdata build/default/debug/Advanced.o
+__Lclrtext 0 0 ABS 0 clrtext build/default/debug/Advanced.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab5.X.debug.o
+__end_of_main 7F78 0 CODE 0 text0 dist/default/debug\Lab5.X.debug.o
+__Hudata_acs 0 0 ABS 0 udata_acs build/default/debug/Advanced.o
+__HRAM 0 0 ABS 0 - build/default/debug/Advanced.o
+__Hbss 0 0 RAM 1 bss build/default/debug/Advanced.o
+__Hram 0 0 ABS 0 ram build/default/debug/Advanced.o
+__Hsfr 0 0 ABS 0 sfr build/default/debug/Advanced.o
+__LRAM 1 0 ABS 0 - build/default/debug/Advanced.o
+__Lbss 0 0 RAM 1 bss build/default/debug/Advanced.o
+__Lram 0 0 ABS 0 ram build/default/debug/Advanced.o
+__Lsfr 0 0 ABS 0 sfr build/default/debug/Advanced.o
+__initialization 7F50 0 CODE 0 cinit dist/default/debug\Lab5.X.debug.o
+__Hfardata 0 0 FARRAM 0 fardata build/default/debug/Advanced.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst build/default/debug/Advanced.o
+__Ludata_acs 0 0 ABS 0 udata_acs build/default/debug/Advanced.o
+__Lifardata 0 0 CODE 0 ifardata build/default/debug/Advanced.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs build/default/debug/Advanced.o
+__Hintcode 0 0 CODE 0 intcode build/default/debug/Advanced.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+mytext 0 7F78 7F78 88 1
+cinit 0 7F50 7F50 6 1
+text0 0 7F56 7F56 22 1
+cstackCOMRAM 1 1 1 4 1
+reset_vec 0 0 0 4 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
