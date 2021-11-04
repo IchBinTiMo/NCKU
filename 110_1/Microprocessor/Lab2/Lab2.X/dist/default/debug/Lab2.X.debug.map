@@ -1,0 +1,42 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed Sep 29 23:03:22 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000ca
+                   .cinit    romdata   0x0000ca    program   0x000002
+.config_300001_BUILD/DEFAULT/DEBUG/BASIC_N_ADVA    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/BASIC_N_ADVA    romdata   0x300003    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000cb      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+            206 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 Advanced   0x00009e    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab2\Lab2.X\Basic_n_Advanced.asm
+                    Basic   0x000068    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab2\Lab2.X\Basic_n_Advanced.asm
+                  INITIAL   0x000000    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab2\Lab2.X\Basic_n_Advanced.asm
+                    start   0x00003a    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab2\Lab2.X\Basic_n_Advanced.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  INITIAL   0x000000    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab2\Lab2.X\Basic_n_Advanced.asm
+                    start   0x00003a    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab2\Lab2.X\Basic_n_Advanced.asm
+                    Basic   0x000068    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab2\Lab2.X\Basic_n_Advanced.asm
+                 Advanced   0x00009e    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab2\Lab2.X\Basic_n_Advanced.asm
+
+

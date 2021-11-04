@@ -1,0 +1,50 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed Sep 22 23:20:15 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000074
+                   .cinit    romdata   0x000074    program   0x000002
+.config_300001_BUILD/DEFAULT/DEBUG/PLUS.O    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/PLUS.O    romdata   0x300003    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000075      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+            120 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    check   0x00004c    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                    false   0x00006a    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                   finish   0x000072    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                     here   0x000012    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                     loop   0x000058    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                  reverse   0x000026    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                    start   0x000000    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                     true   0x000062    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000000    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                     here   0x000012    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                  reverse   0x000026    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                    check   0x00004c    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                     loop   0x000058    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                     true   0x000062    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                    false   0x00006a    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+                   finish   0x000072    program     static D:\Timo\MYSELF\NCKU\110-1\Microprocessor Principles and Applications\Lab\Lab1.X\Plus.asm
+
+
