@@ -1,0 +1,8 @@
+Warning[205] D:\TIMO\MYSELF\NCKU\110-1\MICROPROCESSOR\LAB\LAB7\LAB7.X\BASIC.ASM 1 : Found directive in column 1. (LIST)
+Warning[205] D:\TIMO\MYSELF\NCKU\110-1\MICROPROCESSOR\LAB\LAB7\LAB7.X\BASIC.ASM 66 : Found directive in column 1. (org)
+Warning[203] D:\TIMO\MYSELF\NCKU\110-1\MICROPROCESSOR\LAB\LAB7\LAB7.X\BASIC.ASM 67 : Found opcode in column 1. (goto)
+Warning[205] D:\TIMO\MYSELF\NCKU\110-1\MICROPROCESSOR\LAB\LAB7\LAB7.X\BASIC.ASM 89 : Found directive in column 1. (endm)
+Warning[205] D:\TIMO\MYSELF\NCKU\110-1\MICROPROCESSOR\LAB\LAB7\LAB7.X\BASIC.ASM 96 : Found directive in column 1. (endm)
+Warning[207] D:\TIMO\MYSELF\NCKU\110-1\MICROPROCESSOR\LAB\LAB7\LAB7.X\BASIC.ASM 75 : Found label after column 1. (outerloop)
+Warning[207] D:\TIMO\MYSELF\NCKU\110-1\MICROPROCESSOR\LAB\LAB7\LAB7.X\BASIC.ASM 78 : Found label after column 1. (innerloop)
+Warning[205] D:\TIMO\MYSELF\NCKU\110-1\MICROPROCESSOR\LAB\LAB7\LAB7.X\BASIC.ASM 139 : Found directive in column 1. (end)
